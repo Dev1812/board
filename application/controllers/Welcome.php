@@ -22,9 +22,9 @@ class Welcome extends CI_Controller {
 	{
 		
 		if(isset($_POST['submit']) && !empty($_POST['submit'])) {
-            
-		}
-
+            $this->load->model('welcome');
+		
+        }
 		$this->load->view('header');
         $this->load->view('welcome');
 		$this->load->view('footer');

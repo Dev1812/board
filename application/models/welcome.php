@@ -1,17 +1,11 @@
-<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+<?php
+class Model_Welcome extends CI_Model {
 
-class Welcome extends CI_Model {
-
-  function getUsers(){
- 
-    $response = array();
- 
-    // Select record
-    $this->db->select('*');
-    $q = $this->db->get('users');
-    $response = $q->result_array();
-
-    return $response;
-  }
+	public function __construct()
+	{
+                parent::__construct();
+	}
 
 }
+
+?>
