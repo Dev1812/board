@@ -30,18 +30,16 @@
 
   <meta name="viewport" content="width=device-width, user-scalable=yes">
 
-  <link href="/css/common.css?<?php echo time(); ?>" rel="stylesheet">
-
-
-
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/user_guide/_static/css/common.css">
-
 
 </head>
 <body>
 
 <div id="wrap1">
 
-<div class=>
+<div class="head">
+
+
   
 </div>
