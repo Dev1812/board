@@ -11,9 +11,12 @@
 
 <style>
 
-.wrap_2{max-width:340px;margin:0 auto;padding:4px 0 4px;}
+.wrap_2{max-width:310px;margin:0 auto;padding:74px 0 4px;}
 .text_field{width:100%;}
 .input_wrap{margin:3px 0 7px;}
 
-.title{font-size:17px;}
+.title{font-size:17px;margin-bottom:14px;}
+
+.text_field{}
+
 </style>

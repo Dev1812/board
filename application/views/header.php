@@ -32,14 +32,25 @@
 
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/user_guide/_static/css/common.css">
+  <style>
+html, body{margin:0;padding:0;}
+a{text-decoration:none;color:blue;}
+.head__right{float:right;}
 
+.head{border-bottom:1px solid #DDD;height:51px;line-height:51px;padding:0 14px;}
+
+.head__link{float:left;padding:0 14px;}
+  </style>
 </head>
 <body>
 
 <div id="wrap1">
 
 <div class="head">
-
-
-  
+  <div class="head__right">
+    <a href="/" class="head__link">Word</a>
+  </div>
+  <div class="head__left">
+    <a href="/" class="head__link">Word</a>
+  </div>
 </div>
