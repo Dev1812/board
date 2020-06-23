@@ -42,16 +42,6 @@
 
 <div id="wrap1">
 
-
-<div class="head">
-  <div class="head__wrap">
-    <div class="head__left fl_l">
-      <a class="head__link head__title" href="/">Learn Wordpress</a>
-
-   
-    </div>
-
-
-  </div>
+<div class=>
+  
 </div>
-
