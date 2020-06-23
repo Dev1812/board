@@ -47,9 +47,9 @@ a{text-decoration:none;color:blue;}
 <div id="wrap1">
 
 <div class="head">
-  <div class="head__right">
+  <!--<div class="head__right">
     <a href="/" class="head__link">Word</a>
-  </div>
+  </div>-->
   <div class="head__left">
     <a href="/" class="head__link">Word</a>
   </div>

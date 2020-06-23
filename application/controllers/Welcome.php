@@ -21,8 +21,21 @@ class Welcome extends CI_Controller {
 	public function index()
 	{
 		
+		if(isset($_POST['submit']) && !empty($_POST['submit'])) {
+            
+		}
+
 		$this->load->view('header');
         $this->load->view('welcome');
 		$this->load->view('footer');
+
+		
+	//	$this->load->model('blog');
+
+	//	$data['query'] = $this->blog->get_last_ten_entries();
+//
+	//	$this->load->view('blog', $data);
 	}
+	
+
 }

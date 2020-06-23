@@ -1,3 +1,18 @@
 html, body{
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
+
+
+
+.wrap_2{max-width:270px;margin:0 auto;padding:74px 0 4px;}
+.text_field{width:100%;}
+.input_wrap{margin:5px 0 17px;}
+
+.title{font-size:17px;margin-bottom:14px;text-align:center;text-transform:uppercase;font-weight:bold}
+
+.text_field{border:1px solid #CCC;padding:7px 11px;border-radius:5px;}
+.textarea{height:54px;}
+.submit{border:1px solid #CCC;padding:7px 11px;border-radius:5px;background:#FBFBFB;color:#000;}
+
+
+.footer{text-align:center;border-top:1px solid #DDD;padding-top:14px;}

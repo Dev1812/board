@@ -1,8 +1,6 @@
 
   <div class="footer">
-    <div class="footer__wrap">
-       AirSite  &copy; 2020
-    </div>
+    Word  &copy; 2020
   </div>
 </div>
 
