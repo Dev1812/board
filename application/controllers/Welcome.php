@@ -27,6 +27,7 @@ class Welcome extends CI_Controller {
 
 			
 			$data = $this->welcome_model->a();
+			
 
 		
         }
