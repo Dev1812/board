@@ -22,8 +22,12 @@ class Welcome extends CI_Controller {
 	{
 		
 		if(isset($_POST['submit']) && !empty($_POST['submit'])) {
-			$sql = "SELECT * FROM some_table WHERE id = ? AND status = ? AND author = ?";
-			$this->db->query($sql, array(3, 'live', 'Rick'));
+
+			$this->load->model('welcome_model');
+
+			
+			$data = $this->welcome_model->a();
+
 		
         }
 		$this->load->view('header');

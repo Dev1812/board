@@ -6,6 +6,10 @@ class Model_Welcome extends CI_Model {
                 parent::__construct();
 	}
 
+	public function a() {
+		
+	}
+
 }
 
 ?>
